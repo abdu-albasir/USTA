@@ -1,0 +1,88 @@
+/* popup.css */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .h1-popup {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: -0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .popup-content {
+    background: white;
+    padding: 50px 20px;
+
+    border-radius: 50px;
+    text-align: center;
+    border: 4px solid #0A30B4;
+  }
+  
+  .popup-btn {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .container-for-popup {
+    padding: 30px;
+  }
+  .logo-popup {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .text-popup {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .popup-close {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    color: #0A30B4;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  .container-loc {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .popup-btn img {
+    width: 60px;
+    height: 60px;
+  }
+  .popup-btn {
+    display: block;
+    margin: 20px;
+  }
+  .popup-btn p {
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    
+  }

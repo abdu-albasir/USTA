@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  margin: auto;
+}
+.header__container {
+  border: 3px solid #FFFFFF80;
+  width: 80%;
+  border-radius: 20px;
+  margin: 50px auto;
+
+
+}
+.header hr {
+  width: 100%;
+  border: 1px solid #FFFFFF80;
+
+}
+
+.header-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.header-foot {
+  padding: 20px;
+}
+  
+
+  
+  .header__nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+
+  }
+  .header__nav ul li {
+    margin: 5px;
+
+    text-decoration: none;
+  }
+.t {
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #FFFFFFCC;
+
+
+}
+  
+.t:active, 
+.t:focus { /* Стили для активной ссылки */
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #ffffff; /* Цвет для активной ссылки */
+  text-decoration: double;
+  border-bottom: 2px solid #ffffff;
+}
+
+  
+
+  
+
+.header-head-left {
+  display: flex;
+  gap: 15px;
+}
+.btn-for-popup {
+  background-color: #08258B;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  
+
+}
+.btn-for-popup p {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.container-title {
+  padding: 20px;
+  width: 700px;
+  margin: 20px 120px;
+}
+.title-header {
+  font-family: Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  
+}
+
+.text-header {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+
+}
+
+.btn-header-title {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  color: #001C7C;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+
+.language-switcher {
+  position: relative; /* Для позиционирования выпадающего меню */
+}
+
+.dropdown-button {
+  background-color: #00000000; /* Цвет кнопки */
+  color: white; /* Цвет текста */
+  padding: 10px 20px; /* Отступы */
+  border: none; /* Убираем рамку */
+  border-radius: 5px; /* Закругленные углы */
+  cursor: pointer; /* Курсор при наведении */
+}
+
+.dropdown-content {
+  display: block; /* Показываем меню */
+  position: absolute; /* Абсолютное позиционирование */
+  background-color: white; /* Цвет фона меню */
+  min-width: 100px; /* Минимальная ширина */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Тень */
+  z-index: 1; /* Уровень наложения */
+}
+
+.dropdown-item {
+  color: black; /* Цвет текста */
+  padding: 10px 15px; /* Отступы для элементов */
+  text-decoration: none; /* Убираем подчеркивание */
+  display: block; /* Элементы блочные */
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1; /* Цвет фона при наведении */
+}
